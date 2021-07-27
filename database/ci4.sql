@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 17, 2021 at 06:14 PM
--- Server version: 10.4.19-MariaDB
--- PHP Version: 7.3.28
+-- Waktu pembuatan: 26 Jul 2021 pada 13.27
+-- Versi server: 10.4.18-MariaDB
+-- Versi PHP: 8.0.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `antrian`
+-- Struktur dari tabel `antrian`
 --
 
 CREATE TABLE `antrian` (
@@ -38,10 +38,23 @@ CREATE TABLE `antrian` (
   `antrian_last` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data untuk tabel `antrian`
+--
+
+INSERT INTO `antrian` (`antrian_id`, `antrian_tanggal`, `antrian_status`, `antrian_waktu_panggil`, `antrian_waktu_selesai`, `antrian_pelayanan_id`, `antrian_loket_id`, `antrian_last`) VALUES
+(1, '21-07-26 05:56:14', 'selesai', NULL, NULL, 5, 1, NULL),
+(2, '21-07-26 06:13:01', 'selesai', NULL, NULL, 5, 1, NULL),
+(3, '21-07-26 06:13:12', 'selesai', NULL, NULL, 5, 1, NULL),
+(4, '21-07-26 06:23:44', 'selesai', NULL, NULL, 5, 1, NULL),
+(5, '21-07-26 06:26:17', 'selesai', NULL, NULL, 6, 1, NULL),
+(6, '21-07-26 06:26:37', 'berlansung', NULL, NULL, 5, 1, NULL),
+(7, '21-07-26 06:26:45', 'berlansung', NULL, NULL, 7, 1, NULL);
+
 -- --------------------------------------------------------
 
 --
--- Table structure for table `migrations`
+-- Struktur dari tabel `migrations`
 --
 
 CREATE TABLE `migrations` (
@@ -55,7 +68,7 @@ CREATE TABLE `migrations` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `migrations`
+-- Dumping data untuk tabel `migrations`
 --
 
 INSERT INTO `migrations` (`id`, `version`, `class`, `group`, `namespace`, `time`, `batch`) VALUES
@@ -66,7 +79,7 @@ INSERT INTO `migrations` (`id`, `version`, `class`, `group`, `namespace`, `time`
 -- --------------------------------------------------------
 
 --
--- Table structure for table `pelayanan`
+-- Struktur dari tabel `pelayanan`
 --
 
 CREATE TABLE `pelayanan` (
@@ -77,7 +90,7 @@ CREATE TABLE `pelayanan` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `pelayanan`
+-- Dumping data untuk tabel `pelayanan`
 --
 
 INSERT INTO `pelayanan` (`pelayanan_id`, `pelayanan_name`, `pelayanan_code`, `pelayanan_description`) VALUES
@@ -91,41 +104,41 @@ INSERT INTO `pelayanan` (`pelayanan_id`, `pelayanan_name`, `pelayanan_code`, `pe
 --
 
 --
--- Indexes for table `antrian`
+-- Indeks untuk tabel `antrian`
 --
 ALTER TABLE `antrian`
   ADD PRIMARY KEY (`antrian_id`);
 
 --
--- Indexes for table `migrations`
+-- Indeks untuk tabel `migrations`
 --
 ALTER TABLE `migrations`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `pelayanan`
+-- Indeks untuk tabel `pelayanan`
 --
 ALTER TABLE `pelayanan`
   ADD PRIMARY KEY (`pelayanan_id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `antrian`
+-- AUTO_INCREMENT untuk tabel `antrian`
 --
 ALTER TABLE `antrian`
-  MODIFY `antrian_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `antrian_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
--- AUTO_INCREMENT for table `migrations`
+-- AUTO_INCREMENT untuk tabel `migrations`
 --
 ALTER TABLE `migrations`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT for table `pelayanan`
+-- AUTO_INCREMENT untuk tabel `pelayanan`
 --
 ALTER TABLE `pelayanan`
   MODIFY `pelayanan_id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;

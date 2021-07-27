@@ -18,7 +18,7 @@
 <body>
  
     <div class="container mt-5 mb-5 text-center">
-        <h4>Antrian Menggunakan Codeigniter 4</h4>
+        <h4>Aplikasi Antrian Menggunakan Framework Codeigniter 4</h4>
     </div>
     <div class="container">
         <?php
@@ -66,7 +66,7 @@
                         <div class="btn-group">
                               <?php if (is_numeric($aa)) {
                                   echo "<a href='".base_url('loketpanggil/edit/'.$aa)."' class='btn btn-success'>Panggil</a>";
-                              } else {  echo "<a class='btn btn-danger'>Kosong<a>";  }  ?> 
+                              } else {  echo "<a class='btn btn-dark' style='color:white;' >Kosong</a>";  }  ?> 
                          </div>
                      </td>
                     </tr>
@@ -74,12 +74,12 @@
                         <td>2</td>
                         <td>Pengaduan</td>
                         <td>2</td>
-                        <td>PGDN<?php echo $bb ?></td>
+                        <td>PG<?php echo $bb ?></td>
                         <td>
                         <div class="btn-group">
                              <?php if (is_numeric($bb)) {
                                   echo "<a href='".base_url('loketpanggil/edit/'.$bb)."' class='btn btn-success'>Panggil</a>";
-                              } else {  echo "<a class='btn btn-danger'>Kosong<a>";  }  ?> 
+                              } else {  echo "<a class='btn btn-dark' style='color:white;'>Kosong</a>";  }  ?> 
                          </div>
                      </td>
                     </tr>
@@ -92,7 +92,7 @@
                         <div class="btn-group">
                               <?php if (is_numeric($cc)) {
                                   echo "<a href='".base_url('loketpanggil/edit/'.$cc)."' class='btn btn-success'>Panggil</a>";
-                              } else {  echo "<a class='btn btn-danger'>Kosong<a>";  }  ?> 
+                              } else {  echo "<a class='btn btn-dark' style='color:white;'>Kosong</a>";  }  ?> 
                          </div>
                      </td>
                     </tr>
@@ -105,7 +105,7 @@
                         <div class="btn-group">
                               <?php if (is_numeric($dd)) {
                                   echo "<a href='".base_url('loketpanggil/edit/'.$dd)."' class='btn btn-success'>Panggil</a>";
-                              } else {  echo "<a class='btn btn-danger'>Kosong<a>";  }  ?> 
+                              } else {  echo "<a class='btn btn-dark' style='color:white;'>Kosong</a>";  }  ?> 
                          </div>
                      </td>
                     </tr>

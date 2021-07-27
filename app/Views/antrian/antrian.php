@@ -24,12 +24,12 @@
                                     <title>Antrian</title>
                                     <defs>
                                         <linearGradient x1="0%" y1="100%" y2="0%" id="logo-a">
-                                            <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                            <stop stop-color="#007DFF" offset="100%"/>
+                                            <stop stop-color="#FF8C00" stop-opacity="0" offset="0%"/>
+                                            <stop stop-color="#FF8C00" offset="100%"/>
                                         </linearGradient>
                                         <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="logo-b">
-                                            <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                            <stop stop-color="#FF4F7A" offset="100%"/>
+                                            <stop stop-color="#7FFF00" stop-opacity="0" offset="0%"/>
+                                            <stop stop-color="#7FFF00" offset="100%"/>
                                         </linearGradient>
                                     </defs>
                                     <g fill="none" fill-rule="evenodd">
@@ -110,24 +110,24 @@
                             <svg width="528" height="413" viewBox="0 0 528 413" xmlns="http://www.w3.org/2000/svg">
                                 <defs>
                                     <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="hero-illustration-a">
-                                        <stop stop-color="#A7FDE8" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#6EFACC" offset="100%"/>
+                                        <stop stop-color="#7FFF00" stop-opacity="0" offset="0%"/>
+                                        <stop stop-color="#7FFF00" offset="100%"/>
                                     </linearGradient>
                                     <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="hero-illustration-b">
-                                        <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#FF4F7A" offset="100%"/>
+                                        <stop stop-color="#FF8C00" stop-opacity="0" offset="0%"/>
+                                        <stop stop-color="#FF8C00" offset="100%"/>
                                     </linearGradient>
                                     <radialGradient fx="50%" fy="50%" r="100%" id="hero-illustration-c">
-                                        <stop stop-color="#6EFACC" offset="0%"/>
-                                        <stop stop-color="#6EFACC" stop-opacity="0" offset="100%"/>
+                                        <stop stop-color="#7FFF00" offset="0%"/>
+                                        <stop stop-color="#7FFF00" stop-opacity="0" offset="100%"/>
                                     </radialGradient>
                                     <linearGradient x1="0%" y1="100%" y2="0%" id="hero-illustration-d">
-                                        <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#007DFF" offset="100%"/>
+                                        <stop stop-color="#FF8C00" stop-opacity="0" offset="0%"/>
+                                        <stop stop-color="#FF8C00" offset="100%"/>
                                     </linearGradient>
                                     <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="hero-illustration-e">
-                                        <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#FF4F7A" offset="100%"/>
+                                        <stop stop-color="#7FFF00" stop-opacity="0" offset="0%"/>
+                                        <stop stop-color="#7FFF00" offset="100%"/>
                                     </linearGradient>
                                     <filter x="-500%" y="-500%" width="1000%" height="1000%" filterUnits="objectBoundingBox" id="dropshadow-1">
                                         <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter"/>
@@ -190,8 +190,8 @@
                                         <stop stop-color="#007DFF" offset="100%"/>
                                     </linearGradient>
                                     <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="logo-footer-b">
-                                        <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#FF4F7A" offset="100%"/>
+                                        <stop stop-color="#7FFF00" stop-opacity="0" offset="0%"/>
+                                        <stop stop-color="#7FFF00" offset="100%"/>
                                     </linearGradient>
                                 </defs>
                                 <g fill="none" fill-rule="evenodd">
@@ -241,7 +241,7 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="footer-copyright">&copy; 2021 Miftahul jannah, Universitas Pelita Bangsa</div>
+                    <div class="footer-copyright">&copy; 2021 Monica Putri Utami Universitas Pelita Bangsa</div>
                 </div>
             </div>
         </footer>

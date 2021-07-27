@@ -11,7 +11,7 @@
 <body>
  
     <div class="container mt-5 mb-5 text-center">
-        <h4>Antrian Menggunakan Codeigniter 4</h4>
+        <h4>Aplikasi Antrian Menggunakan Framework Codeigniter 4</h4>
     </div>
     <div class="container">
         <h4>Form Edit Pelayanan</h4>

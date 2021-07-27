@@ -40,12 +40,12 @@
                                         <title>Antrian</title>
                                         <defs>
                                             <lineargradient x1="0%" y1="100%" y2="0%" id="logo-a">
-                                                <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                                <stop stop-color="#007DFF" offset="100%"/>
+                                                <stop stop-color="#FF8C00" stop-opacity="0" offset="0%"/>
+                                                <stop stop-color="#FF8C00" offset="100%"/>
                                             </lineargradient>
                                             <lineargradient x1="100%" y1="50%" x2="0%" y2="50%" id="logo-b">
-                                                <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                                <stop stop-color="#FF4F7A" offset="100%"/>
+                                                <stop stop-color="#7FFF00" stop-opacity="0" offset="0%"/>
+                                                <stop stop-color="#7FFF00" offset="100%"/>
                                             </lineargradient>
                                         </defs>
                                         <g fill="none" fill-rule="evenodd">
@@ -75,7 +75,7 @@
                                     echo "CS";
                                 }
                                 if ($data40['antrian_id'] == $bb) {
-                                    echo "PGDN";
+                                    echo "PG";
                                 }
                                 if ($data40['antrian_id'] == $cc) {
                                     echo "PB";
@@ -102,24 +102,24 @@
                                     xmlns="http://www.w3.org/2000/svg">
                                     <defs>
                                         <lineargradient x1="50%" y1="100%" x2="50%" y2="0%" id="hero-illustration-a">
-                                            <stop stop-color="#A7FDE8" stop-opacity="0" offset="0%"/>
-                                            <stop stop-color="#6EFACC" offset="100%"/>
+                                            <stop stop-color="#7FFF00" stop-opacity="0" offset="0%"/>
+                                            <stop stop-color="#7FFF00" offset="100%"/>
                                         </lineargradient>
                                         <lineargradient x1="100%" y1="50%" x2="0%" y2="50%" id="hero-illustration-b">
-                                            <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                            <stop stop-color="#FF4F7A" offset="100%"/>
+                                            <stop stop-color="#FF8C00" stop-opacity="0" offset="0%"/>
+                                            <stop stop-color="#FF8C00" offset="100%"/>
                                         </lineargradient>
                                         <radialgradient fx="50%" fy="50%" r="100%" id="hero-illustration-c">
-                                            <stop stop-color="#6EFACC" offset="0%"/>
-                                            <stop stop-color="#6EFACC" stop-opacity="0" offset="100%"/>
+                                            <stop stop-color="#7FFF00" offset="0%"/>
+                                            <stop stop-color="#7FFF00" stop-opacity="0" offset="100%"/>
                                         </radialgradient>
                                         <lineargradient x1="0%" y1="100%" y2="0%" id="hero-illustration-d">
-                                            <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                            <stop stop-color="#007DFF" offset="100%"/>
+                                            <stop stop-color="#FF8C00" stop-opacity="0" offset="0%"/>
+                                            <stop stop-color="#FF8C00" offset="100%"/>
                                         </lineargradient>
                                         <lineargradient x1="50%" y1="0%" x2="50%" y2="100%" id="hero-illustration-e">
-                                            <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                            <stop stop-color="#FF4F7A" offset="100%"/>
+                                            <stop stop-color="#7FFF00" stop-opacity="0" offset="0%"/>
+                                            <stop stop-color="#7FFF00" offset="100%"/>
                                         </lineargradient>
                                         <filter
                                             x="-500%"
@@ -219,12 +219,12 @@
                                             <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
                                                 <defs>
                                                     <lineargradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-1-a">
-                                                        <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                                        <stop stop-color="#007DFF" offset="100%"/>
+                                                        <stop stop-color="#FF8C00" stop-opacity="0" offset="0%"/>
+                                                        <stop stop-color="#FF8C00" offset="100%"/>
                                                     </lineargradient>
                                                     <lineargradient x1="50%" y1="0%" x2="50%" y2="100%" id="feature-1-b">
-                                                        <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                                        <stop stop-color="#FF4F7A" offset="100%"/>
+                                                        <stop stop-color="#7FFF00" stop-opacity="0" offset="0%"/>
+                                                        <stop stop-color="#7FFF00" offset="100%"/>
                                                     </lineargradient>
                                                 </defs>
                                                 <g fill="none" fill-rule="evenodd">
@@ -248,12 +248,12 @@
                                             <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
                                                 <defs>
                                                     <lineargradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-2-a">
-                                                        <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                                        <stop stop-color="#007DFF" offset="100%"/>
+                                                        <stop stop-color="#FF8C00" stop-opacity="0" offset="0%"/>
+                                                        <stop stop-color="#FF8C00" offset="100%"/>
                                                     </lineargradient>
                                                     <lineargradient x1="50%" y1="0%" x2="50%" y2="100%" id="feature-2-b">
-                                                        <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                                        <stop stop-color="#FF4F7A" offset="100%"/>
+                                                        <stop stop-color="#7FFF00" stop-opacity="0" offset="0%"/>
+                                                        <stop stop-color="#7FFF00" offset="100%"/>
                                                     </lineargradient>
                                                 </defs>
                                                 <g fill="none" fill-rule="evenodd">
@@ -279,12 +279,12 @@
                                             <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
                                                 <defs>
                                                     <lineargradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-3-a">
-                                                        <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                                        <stop stop-color="#007DFF" offset="100%"/>
+                                                        <stop stop-color="#FF8C00" stop-opacity="0" offset="0%"/>
+                                                        <stop stop-color="#FF8C00" offset="100%"/>
                                                     </lineargradient>
                                                     <lineargradient x1="50%" y1="0%" x2="50%" y2="100%" id="feature-3-b">
-                                                        <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                                        <stop stop-color="#FF4F7A" offset="100%"/>
+                                                        <stop stop-color="#7FFF00" stop-opacity="0" offset="0%"/>
+                                                        <stop stop-color="#7FFF00" offset="100%"/>
                                                     </lineargradient>
                                                 </defs>
                                                 <g fill="none" fill-rule="evenodd">
@@ -307,12 +307,12 @@
                                         <svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
                                             <defs>
                                                 <lineargradient x1="50%" y1="0%" x2="50%" y2="100%" id="feature-4-a">
-                                                    <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#FF4F7A" offset="100%"/>
+                                                    <stop stop-color="#FF8C00" stop-opacity="0" offset="0%"/>
+                                                    <stop stop-color="#FF8C00" offset="100%"/>
                                                 </lineargradient>
                                                 <lineargradient x1="50%" y1="100%" x2="50%" y2="0%" id="feature-4-b">
-                                                    <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                                    <stop stop-color="#007DFF" offset="100%"/>
+                                                    <stop stop-color="#7FFF00" stop-opacity="0" offset="0%"/>
+                                                    <stop stop-color="#7FFF00" offset="100%"/>
                                                 </lineargradient>
                                             </defs>
                                             <g fill="none" fill-rule="evenodd">
@@ -351,12 +351,12 @@
                                 <title></title>
                                 <defs>
                                     <lineargradient x1="0%" y1="100%" y2="0%" id="logo-footer-a">
-                                        <stop stop-color="#007CFE" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#007DFF" offset="100%"/>
+                                        <stop stop-color="#FF8C00" stop-opacity="0" offset="0%"/>
+                                        <stop stop-color="#FF8C00" offset="100%"/>
                                     </lineargradient>
                                     <lineargradient x1="100%" y1="50%" x2="0%" y2="50%" id="logo-footer-b">
-                                        <stop stop-color="#FF4F7A" stop-opacity="0" offset="0%"/>
-                                        <stop stop-color="#FF4F7A" offset="100%"/>
+                                        <stop stop-color="#7FFF00" stop-opacity="0" offset="0%"/>
+                                        <stop stop-color="#7FFF00" offset="100%"/>
                                     </lineargradient>
                                 </defs>
                                 <g fill="none" fill-rule="evenodd">
@@ -412,7 +412,7 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="footer-copyright">&copy; 2021 Miftahul jannah, Universitas Pelita Bangsa</div>
+                    <div class="footer-copyright">&copy; NUNUK PANCA WULAN 2021</div>
                 </div>
             </div>
         </footer>
